@@ -35,7 +35,7 @@ tasarrufu sağlanırken, işlerin düzenli ve şeffaf bir şekilde ilerlemesi m�
 artırır. Bu sistem, servislerin iş yükünü hafifletir ve günlük operasyonları daha verimli hale
 getirir.
 
-# ER DİYAGRAMI OLUŞTURMA AŞAMASI
+## ER DİYAGRAMI OLUŞTURMA AŞAMASI
 Bir veritabanı tasarımına başlamadan önce ER (Varlık-İlişki) diyagramları oluşturmak,
 sistemin yapısını ve işleyişini anlamak için kritik bir adımdır. Bu yüzden bizde ilk aşama olarak
 ER diyagramı oluşturduk.
