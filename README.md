@@ -1,6 +1,11 @@
 # Oto Sanayi Kayit Sistemi Projesi 
 
-  “Oto Tamir Kayıt Sistemi” projemizin amacı bir oto tamiri yapan bir servisin iş
+## EKİP ÜYELERİ
+- Emirhan Erdem 230260199
+- Emirhan Alişan 220260081
+- Alper Nas 220260039
+##
+   “Oto Tamir Kayıt Sistemi” projemizin amacı bir oto tamiri yapan bir servisin iş
 süreçlerini dijitalleştiren ve kolaylaştıran bir veritabanı tasarımıdır. Aşağıda bu sistemin
 günlük hayatta çözdüğü genel problemler ve kolaylıklar verilmiştir.
 
@@ -25,7 +30,7 @@ Personel-Randevu İlişkisi, personelin hangi randevularla ilgilendiğini göste
 açabilir.
 - **Çözüm 5 :** Ödemeler Tablosu, tamir işlemlerine bağlı ödemelerin kaydını tutarak bu süreci
 şeffaf ve düzenli hale getirir.
-
+##
 Bu sistem, otomotiv servisleri için süreçleri dijitalleştirerek günlük hayatı kolaylaştırır.
 Müşteri bilgileri, araç kayıtları, tamir işlemleri, ödemeler ve yedek parça stokları tek bir
 platformda yönetilir.Bu sayede manuel işlem yapma zorunluluğu ortadan kalkar, iş süreçleri
@@ -50,7 +55,7 @@ veritabanının doğru şekilde modellenmesini sağlar.
 İlişki Şeması ise ER diyagramından elde edilen, varlıkların ve ilişkilerin daha teknik bir dilde,
 tablo yapıları ve anahtarlar ile ifade edildiği bir gösterimdir. Bu yüzden bir sonraki aşamamız
 ilişki şemasını çıkartmak olucaktır.
-
+##
 ## İLİŞKİ ŞEMASI OLUŞTURMA AŞAMASI
 - **Musteriler**(MusteriID, Ad, Soyad, TelNo, Email, Adres, MusteriTipi, MusteriBakiye)
 - **Araclar**(AracID, MusteriID, Plaka, Marka, Model, Yil, Kilometre, Renk, MotorNo, Tip,
@@ -65,7 +70,7 @@ VitesTipi, YakitTipi, SaseNo)
 - **Yedek_Parca**(PersonelID, ParcaID, Adet)
 - **Tamir_Odeme**(OdemeID, TamirID)
 - **Tamir_YedekParca**(TamirID, ParcaID, Miktar)
-
+##
 ## NORMALİZASYON YAPMA AŞAMASI
 İlişki şemasının ilk hali oluşturulduktan sonra normalizasyon kurallarına uyarak yeni bir
 versiyon oluşturmaya çalışıyoruz.
@@ -80,7 +85,7 @@ oluşturuyoruz.
 
  **Şekil 2.** Normalizasyon uygulanmadan önce Araclar tablosu
 
-
+##
 
 <img width="500" alt=image src="https://github.com/user-attachments/assets/c932fad8-795f-4fdb-bec4-806aa80bba85" />
  
@@ -106,7 +111,7 @@ müşteri tipi, telefonlar, email gibi niteliklerin her biri için ayrı tablo o
 
 **Şekil 4.** Normalizasyon uygulanmadan önce Musteriler tablosu!
 
-
+##
 
 <img width="500" alt=image src="https://github.com/user-attachments/assets/e4605b39-c37b-4124-9f1b-9ba61fca98f0" />
 
@@ -114,7 +119,7 @@ müşteri tipi, telefonlar, email gibi niteliklerin her biri için ayrı tablo o
 
 **3.Adım:** Randevular, Personel, Odemeler tablolarında teker teker 3. normal forma uygun hale
 getiriyoruz ve son haldeki ilişki şeması aşağıda verilmiştir.
-
+##
 - **Musteriler**(MusteriID, Ad, Soyad, Adres, MusteriTipiID, MusteriBakiye)
 - **MusteriTipleri**(MusteriTipiID, TipAdi)
 - **Telefonlar**(TelefonID, MusteriID, TelefonNo, TelefonTipi)
@@ -140,12 +145,15 @@ MotorNo, TipID, VitesTipiID, YakitTipiID, SaseNo)
 - **Personel_YedekParca**(PersonelID, ParcaID,Adet)
 - **Odeme_Tamir**(OdemeID, TamirID)
 - **Tamir_YedekParca**(TamirID, ParcaID, Miktar)
-  
+##
 Bu şekilde elde ederek 3. normal form (3NF)'e oldukça yakın ve bir seviye getiriyoruz.Bu
 normalizasyon seviyesi, veri tekrarını en aza indirir, veri tutarlılığını sağlıyor ve veri tabanı
 performansını arttırıyor.
-
+##
 ![image](https://github.com/user-attachments/assets/66869e42-6b87-4bfd-8f4a-e83649ed6f13)
  **Şekil 6.** ER diyaramımızın son hali(Normalizasyon işlemi uygulandıktan sonra)
+
+ Raporun Son Hali: 
+ [5_230260199_220260081_220260039.docx](https://github.com/user-attachments/files/18320335/5_230260199_220260081_220260039.docx)
 
 
