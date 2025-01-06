@@ -366,7 +366,6 @@ JOIN Araclar A ON M.MusteriID = A.MusteriID
 WHERE M.MusteriID = 1;
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-
 --Müşterilerin telefon ve email adreslerini getiren sorgu
 SELECT DISTINCT 
     M.Ad AS MusteriAdi,
@@ -398,8 +397,7 @@ WHERE
     M.MusteriTipiID = 1;
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-
---Her markanın kaç modeli olduğunu listeler
+--Her markanın kaç modeli olduğunu listeleyen sorgu
 
 	SELECT 
     MA.MarkaAdi,
@@ -414,7 +412,6 @@ ORDER BY
     ModelSayisi DESC;
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
-
 --Bir tamir işlemi için yapılan tüm ödemeleri gösterir
 
 SELECT T.TamirID, O.Tutar, O.Tarih, Y.YontemAdi
@@ -424,7 +421,7 @@ JOIN OdemeYontemleri Y ON O.OdemeYontemiID = Y.OdemeYontemiID
 WHERE T.TamirID = 4;
 
 ----------------------------------------------------------------------------------------------------------------------------------------------
---belirli bir personelin yaptığı tamir işlemlerini listeler
+--Belirli bir personelin yaptığı tamir işlemlerini listeleyen sorgu
 
 SELECT P.Ad AS PersonelAd, P.Soyad AS PersonelSoyad, T.TamirID, T.SorunAciklama, T.YapilanIslem
 FROM Personel P
@@ -435,7 +432,6 @@ WHERE P.PersonelID = 1;
 ----------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------PROSEDÜRLER------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------------------------------------------
-
 --Müşteri tablosuna yeni müşteri eklemek için kullanılan prosedür
 
 CREATE PROCEDURE YeniMusteriEkle
@@ -563,9 +559,8 @@ WHERE MusteriID = 1;
 UPDATE Randevular
 SET DurumID = 2  -- 2, 'Tamamlandı' durumu
 WHERE RandevuID = 1; 
-
-
 COMMIT;
+END;
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -586,8 +581,6 @@ END;
 
 BEGIN TRY
     BEGIN TRANSACTION;
-
-
     INSERT INTO Tamir_YedekParca (TamirID, ParcaID, Miktar)
     VALUES (3, 1, 2); 
     UPDATE YedekParcalar
