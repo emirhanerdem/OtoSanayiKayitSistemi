@@ -5,7 +5,7 @@
 - Emirhan Alişan 220260081
 - Alper Nas 220260039
 ##
-   “Oto Tamir Kayıt Sistemi” projemizin amacı bir oto tamiri yapan bir servisin iş
+“Oto Tamir Kayıt Sistemi” projemizin amacı bir oto tamiri yapan bir servisin iş
 süreçlerini dijitalleştiren ve kolaylaştıran bir veritabanı tasarımıdır. Aşağıda bu sistemin
 günlük hayatta çözdüğü genel problemler ve kolaylıklar verilmiştir.
 
@@ -85,8 +85,6 @@ oluşturuyoruz.
 
  **Şekil 2.** Normalizasyon uygulanmadan önce Araclar tablosu
 
-##
-
 <img width="500" alt=image src="https://github.com/user-attachments/assets/c932fad8-795f-4fdb-bec4-806aa80bba85" />
  
   **Şekil 3.** Normalizasyon işlemi uygulandıktan sonra Araclar tablosu
@@ -110,8 +108,6 @@ müşteri tipi, telefonlar, email gibi niteliklerin her biri için ayrı tablo o
 <img width="500" alt=image src="https://github.com/user-attachments/assets/6096de85-0118-4042-ae74-14342c5973fe" />
 
 **Şekil 4.** Normalizasyon uygulanmadan önce Musteriler tablosu!
-
-##
 
 <img width="500" alt=image src="https://github.com/user-attachments/assets/e4605b39-c37b-4124-9f1b-9ba61fca98f0" />
 
@@ -149,7 +145,7 @@ MotorNo, TipID, VitesTipiID, YakitTipiID, SaseNo)
 Bu şekilde elde ederek 3. normal form (3NF)'e oldukça yakın ve bir seviye getiriyoruz.Bu
 normalizasyon seviyesi, veri tekrarını en aza indirir, veri tutarlılığını sağlıyor ve veri tabanı
 performansını arttırıyor.
-##
+
 ![image](https://github.com/user-attachments/assets/66869e42-6b87-4bfd-8f4a-e83649ed6f13)
  **Şekil 6.** ER diyaramımızın son hali(Normalizasyon işlemi uygulandıktan sonra)
 
