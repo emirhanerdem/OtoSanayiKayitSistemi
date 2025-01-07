@@ -100,6 +100,7 @@ riskini artırır.
 Bu nedenden dolayı biz normalizasyon işlemi yaparız ve Araclar tablosundaki tekrar eden
 veya gereksiz bilgiler farklı tablolara böleriz. (örneğin, Markalar, Modeller, Renkler,
 VitesTipleri, YakitTipleri, vb.)
+
 **2.Adım:** Musteriler tablosu 3. normal Form’da değildir.Müşteri tipi, telefonlar, email
 adresleri gibi nitelikler AracID sütununa bağlıdır. Bu yüzden 3. normal formu bozan bağlılığı
 ortadan kaldırmak için bu sütunları Musteriler tablosundan kaldırmamız gerekiyor.Bu yüzden
