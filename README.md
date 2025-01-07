@@ -108,11 +108,11 @@ müşteri tipi, telefonlar, email gibi niteliklerin her biri için ayrı tablo o
 
 <img width="500" alt=image src="https://github.com/user-attachments/assets/6096de85-0118-4042-ae74-14342c5973fe" />
 
-**Şekil 4.** Normalizasyon uygulanmadan önce Musteriler tablosu!
+**Şekil 4.** Normalizasyon uygulanmadan önce Musteriler tablosu
 
 <img width="500" alt=image src="https://github.com/user-attachments/assets/e4605b39-c37b-4124-9f1b-9ba61fca98f0" />
 
-**Şekil 5.** Normalizasyon uygulandıktan sonra Musteriler tablosu!
+**Şekil 5.** Normalizasyon uygulandıktan sonra Musteriler tablosu
 
 **3.Adım:** Randevular, Personel, Odemeler tablolarında teker teker 3. normal forma uygun hale
 getiriyoruz ve son haldeki ilişki şeması aşağıda verilmiştir.
