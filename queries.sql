@@ -102,8 +102,6 @@ CREATE TABLE Personel (
     FOREIGN KEY(PozisyonID) REFERENCES Pozisyonlar(PozisyonID)
 );
 
-
-
 --TAMİR İŞLEMLERİ TABLOSU
 CREATE TABLE TamirIslemleri(
     TamirID INT IDENTITY(1,1) PRIMARY KEY,
@@ -129,7 +127,6 @@ CREATE TABLE OdemeYontemleri (
     OdemeYontemiID INT IDENTITY(1,1) PRIMARY KEY,
     YontemAdi VARCHAR(50) NOT NULL  -- Ödeme yönteminin adı (örneğin, "Kredi Kartı", "Nakit", "Banka Havalesi")
 );
-
 
 --ÖDEMELER TABLOSU
 CREATE TABLE Odemeler (
