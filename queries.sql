@@ -591,6 +591,7 @@ END CATCH;
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------
 --Yeni bir müşteri eklendiğinde müşterinin aracınıda ekleyen transaction
+
 BEGIN TRY
     BEGIN TRANSACTION;
     INSERT INTO Musteriler (Ad, Soyad, Adres, MusteriTipiID, MusteriBakiye)
