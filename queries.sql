@@ -552,7 +552,7 @@ UPDATE Musteriler
 SET MusteriBakiye = MusteriBakiye - 1500.00
 WHERE MusteriID = 1;  
 UPDATE Randevular
-SET DurumID = 2  -- 2, 'Tamamlandı' durumu
+SET DurumID = 2 
 WHERE RandevuID = 1; 
 COMMIT;
 END;
