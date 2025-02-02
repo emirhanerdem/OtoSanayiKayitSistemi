@@ -1,9 +1,6 @@
 # Oto Sanayi Kayit Sistemi Projesi 
 
-## EKİP ÜYELERİ
-- Emirhan Erdem 230260199
-- Emirhan Alişan 220260081
-- Alper Nas 220260039
+
 ##
 “Oto Tamir Kayıt Sistemi” projemizin amacı bir oto tamiri yapan bir servisin iş
 süreçlerini dijitalleştiren ve kolaylaştıran bir veritabanı tasarımıdır. Aşağıda bu sistemin
