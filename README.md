@@ -2,7 +2,7 @@
 
 
 ##
-“Oto Tamir Kayıt Sistemi” projemizin amacı bir oto tamiri yapan bir servisin iş
+“Oto Tamir Kayıt Sistemi” projemin amacı bir oto tamiri yapan bir servisin iş
 süreçlerini dijitalleştiren ve kolaylaştıran bir veritabanı tasarımıdır. Aşağıda bu sistemin
 günlük hayatta çözdüğü genel problemler ve kolaylıklar verilmiştir.
 
