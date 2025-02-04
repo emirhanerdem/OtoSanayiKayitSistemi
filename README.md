@@ -43,7 +43,7 @@ sistemin yapısını ve işleyişini anlamak için kritik bir adımdır. Bu yüz
 ER diyagramı oluşturduk.
 
 ![image](https://github.com/user-attachments/assets/17d28414-302f-439d-8824-9a99e4c23e05)
- **Şekil 1.** ER diyagramımızın ilk hali (Normalizasyon işlemi uygulanmadan önceki)
+ **Şekil 1.** ER diyagramının ilk hali (Normalizasyon işlemi uygulanmadan önceki)
 
 ER diyagramı bizim için sadece bir veritabanı tasarımının görsel temsili olup, sistemdeki
 varlıklar (entity), bu varlıkların özellikleri (attributes) ve aralarındaki ilişkiler (relationships)
@@ -145,7 +145,7 @@ normalizasyon seviyesi, veri tekrarını en aza indirir, veri tutarlılığını
 performansını arttırıyor.
 
 ![image](https://github.com/user-attachments/assets/66869e42-6b87-4bfd-8f4a-e83649ed6f13)
- **Şekil 6.** ER diyaramımızın son hali(Normalizasyon işlemi uygulandıktan sonra)
+ **Şekil 6.** ER diyaramın son hali(Normalizasyon işlemi uygulandıktan sonra)
 
  Raporun Son Hali: 
  [5_230260199_220260081_220260039.docx](https://github.com/user-attachments/files/18320335/5_230260199_220260081_220260039.docx)
