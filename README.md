@@ -45,7 +45,7 @@ ER diyagramı oluşturduk.
 ![image](https://github.com/user-attachments/assets/17d28414-302f-439d-8824-9a99e4c23e05)
  **Şekil 1.** ER diyagramının ilk hali (Normalizasyon işlemi uygulanmadan önceki)
 
-ER diyagramı bizim için sadece bir veritabanı tasarımının görsel temsili olup, sistemdeki
+ER diyagramı sadece bir veritabanı tasarımının görsel temsili olup, sistemdeki
 varlıklar (entity), bu varlıkların özellikleri (attributes) ve aralarındaki ilişkiler (relationships)
 hakkında bilgi sağlar. Bu diyagram, veritabanı tasarımının temelini oluşturur ve ilişkisel
 veritabanının doğru şekilde modellenmesini sağlar.
