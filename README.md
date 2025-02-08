@@ -39,7 +39,7 @@ getirir.
 
 ## ER DİYAGRAMI OLUŞTURMA AŞAMASI
 Bir veritabanı tasarımına başlamadan önce ER (Varlık-İlişki) diyagramları oluşturmak,
-sistemin yapısını ve işleyişini anlamak için kritik bir adımdır. Bu yüzden bizde ilk aşama olarak
+sistemin yapısını ve işleyişini anlamak için kritik bir adımdır. Bu yüzden ilk aşama olarak
 ER diyagramı oluşturduk.
 
 ![image](https://github.com/user-attachments/assets/17d28414-302f-439d-8824-9a99e4c23e05)
