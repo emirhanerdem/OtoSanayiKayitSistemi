@@ -13,7 +13,7 @@ CREATE TABLE Musteriler(
     MusteriBakiye DECIMAL(10,2),
     FOREIGN KEY(MusteriTipiID) REFERENCES MusteriTipleri(MusteriTipiID)
 );
-
+--TELEFONLAR TABLOSU
 CREATE TABLE Telefonlar(
     TelefonID INT IDENTITY(1,1) PRIMARY KEY,
     MusteriID INT,
@@ -21,7 +21,7 @@ CREATE TABLE Telefonlar(
     TelefonTipi VARCHAR(20),  -- Örneğin, 'Ev', 'İş', 'Cep'
     FOREIGN KEY (MusteriID) REFERENCES Musteriler(MusteriID)
 );
-
+--E MAİL ADRESLERİ TABLOSU
 CREATE TABLE EmailAdresleri(
     EmailID INT IDENTITY(1,1) PRIMARY KEY,
     MusteriID INT,
@@ -29,12 +29,12 @@ CREATE TABLE EmailAdresleri(
     EmailTipi VARCHAR(20),  -- Örneğin, 'Kişisel', 'İş'
     FOREIGN KEY (MusteriID) REFERENCES Musteriler(MusteriID)
 );
-
+--MARKALAR TABLOSU
 CREATE TABLE Markalar (
     MarkaID INT IDENTITY(1,1) PRIMARY KEY,
     MarkaAdi VARCHAR(50) NOT NULL
 );
-
+--MODELLER TABLOSU
 CREATE TABLE Modeller (
     ModelID INT IDENTITY(1,1) PRIMARY KEY,
     MarkaID INT NOT NULL,
