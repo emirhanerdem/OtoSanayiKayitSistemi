@@ -100,7 +100,7 @@ VitesTipleri, YakitTipleri, vb.)
 
 **2.Adım:** Musteriler tablosu 3. normal Form’da değildir.Müşteri tipi, telefonlar, email
 adresleri gibi nitelikler AracID sütununa bağlıdır. Bu yüzden 3. normal formu bozan bağlılığı
-ortadan kaldırmak için bu sütunları Musteriler tablosundan kaldırmamız gerekiyor.Bu yüzden
+ortadan kaldırmak için bu sütunları Musteriler tablosundan kaldırmam gerekiyor.Bu yüzden
 müşteri tipi, telefonlar, email gibi niteliklerin her biri için ayrı tablo oluşturuyoruz.
 
 <img width="500" alt=image src="https://github.com/user-attachments/assets/6096de85-0118-4042-ae74-14342c5973fe" />
